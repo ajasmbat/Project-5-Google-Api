@@ -81,13 +81,15 @@ function initMap() {
         clickableIcons: false,
         styles: [
             {
-                featureType: "poi",
                 elementType: "labels",
                 stylers: [{ visibility: "off" }]
             },
             {
+                featureType: "poi",
+                stylers: [{ visibility: "off" }]
+            },
+            {
                 featureType: "transit",
-                elementType: "labels",
                 stylers: [{ visibility: "off" }]
             }
         ]
