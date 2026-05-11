@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Five - Google Maps Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Left side panel with quiz info -->
+    <div id="panel">
+        <h2>Map Quiz. Please double click on the map the location of:</h2>
+        <div id="quiz-log"></div>
+        <div id="final-score"></div>
+    </div>
+
+    <!-- Map takes up the right side -->
+    <div id="map"></div>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDqbXzCCWaPf7tlxQwhBUDLbsHpLHdM5z4&callback=initMap" async defer></script>
+    <script src="app.js"></script>
+</body>
+</html>
